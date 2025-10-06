@@ -8,7 +8,7 @@ img {
 }
 
 body {
-	background-color: rgb(237, 236, 236); /* Not totally white. */
+	background-color: rgb(241, 241, 241); /* Not totally white. */
 	color: rgb(33, 33, 33);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
@@ -28,7 +28,7 @@ h1 {
 h2 {
 	background-color: rgb(153,154,166);
 	color: white;
-	font-size: 20pt;
+	font-size: 2em;
 	padding: 0em 0.55em .75em;
 	font-family: serif;
 	font-weight: bold;
