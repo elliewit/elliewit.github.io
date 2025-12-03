@@ -37,7 +37,7 @@ main {
 img {
     width: 100%;
     display: block;
-	border: 1.5px solid #332219;
+	border: 1.5px solid #332219; /* color + thickness */
 }
 
 header {
@@ -76,6 +76,7 @@ h3 {
 }
 h4{
 	color: #332219;
+	font-size: larger;
 }
 
 a {
@@ -101,6 +102,7 @@ main.menu ul {
 p {
     margin: 1em 0em 1em;
 	color:#332219;
+	font-size: large;
 }
 
 main.menu ul li {
@@ -159,12 +161,15 @@ footer {
 }
 
 address {
-    color: #000000;
+    color: #332219;
+	padding: .5em;
+	font-size: medium;
 }
 
 footer p {
     margin: 0em;
 	color: rgb(255, 255, 255);
+	text-align: center;
 }
 
 @media screen and (min-width: 60em) {
