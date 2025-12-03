@@ -37,6 +37,7 @@ main {
 img {
     width: 100%;
     display: block;
+	border: 1.5px solid #332219;
 }
 
 header {
@@ -48,11 +49,12 @@ header {
 
 body {
     font-family: "Playfair Display", serif;
-    background-color: #745E59;
+	background: url("coffeebean.avif");
+	background-size: 40%
 }
 
 h1 {
-    width: 14em;
+    width: 15em;
 }
 
 h2, h3, h4 {
@@ -64,6 +66,7 @@ h2 {
     font-size: 2em;
     margin: 1em 0em .5em;
 	color: #332219;
+	border-bottom: .5px solid #332219
 }
 
 h3 {
@@ -131,7 +134,7 @@ nav ul li {
 
 nav ul li a {
     color: rgb(255, 255, 255);
-    background-color: #745E59;
+    background-color: #332219;
     padding: .5em .5em .35em;
     border-radius: 50px;
 }
@@ -141,7 +144,7 @@ p.slogan {
     font-family: "Playfair Display", serif;
     font-style: italic;
     margin: 1em 0em 2em 0em;
-    color: #000000;
+    color: #332219;
 }
 
 footer {
@@ -182,9 +185,14 @@ footer p {
 
 nav ul li.selected a {
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: 332219;
+	transition: all 0.3s ease;
 }
 
+nav ul li a:hover {
+    background-color: #4E342E;   
+    color: #ffffff; 
+}
 article {
     background-color: rgb(255, 255, 255);
     max-width: 40rem;
@@ -192,3 +200,4 @@ article {
     padding: 3em;
     letter-spacing: 0.0175rem;
 }
+  
