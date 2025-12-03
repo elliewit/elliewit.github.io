@@ -43,14 +43,18 @@ img {
 header {
     display: grid;
     grid-template-columns: 2fr 3fr;
+	gap: 3rem; 
     background: #332219;
     padding: 1em .5em;
 }
 
 body {
-    font-family: "Playfair Display", serif;
+	font-family: "playfair-display", serif;
+	font-weight: 400;
+	font-style: normal;
 	background: url("coffeebean.avif");
 	background-size: 40%
+
 }
 
 h1 {
@@ -147,6 +151,8 @@ p.slogan {
     font-style: italic;
     margin: 1em 0em 2em 0em;
     color: #332219;
+	font-weight: 500;
+	font-style: italic;
 }
 
 footer {
@@ -205,3 +211,4 @@ article {
     padding: 3em;
     letter-spacing: 0.0175rem;
 }
+  
